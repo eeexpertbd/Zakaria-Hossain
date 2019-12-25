@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/css-bootstrap_4.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <div class="innner_wrapper small_arh-wrapper_single">
+        <form method="post" action="bank-statement-summary.html" enctype="multipart/form-data" name="bank_statmentorder" target="_self" id="bank_statmentorder" class="order-form">
+            
+          <div class="outer_sticky">
+      
+            <div class="sticky_panel sticky_panel_third" style="margin: 0px; left: 0px; top: 70px; position: fixed; width: 649.027px;">
+              <div class="main_hedding red_bg margin_left_20px">
+                <h2>Order Summary</h2>
+              </div>
+                <div id="redboxwrapper">
+                  <div class="step1_right_bg_after"></div>
+                  <div class="step1_right_bg">
+                      <div class="style_thumb style_thumb_new"><img src="img/demo image.jpg" alt="Tide">
+                        <h3> <span id="text">2 Statements <br></span> <span id="docName">Tide<br></span> <span id="acType"></span> <span class="text-danger" id="price">Total:£70</span> </h3>
+                    </div>
+                  </div>
+              </div>
+      
+              <div class="show_hide">
+                <a href="#"><i class="fa fa-angle-up">
+                </i>
+            </div>
+            </div>
+      
+            <!-------------------------------------1st Step----------------------------------------->
+            <div id="firstStep" style="display: none;">
+              <div class="first_box_wrapper">
+                <div class="container">
+                  <div class="first_box_arch_top"></div>
+                  <div class="big_box_arch_bottom_blue"></div>
+                  <div class="big_box_arch_bottom"></div>
+                  <div class="white_box_wrapper">
+                    <div class="style_box">
+                      <div class="step_text">
+                        <div class="step_heading">STEP 1 (of 4)</div>
+                        <ul class="step_blt">
+                          <li class="active">-</li>
+                          <li>-</li>
+                          <li>-</li>
+                          <li>-</li>
+                        </ul>
+                        <h2 class="firstStep_tittle"><span class="black_inner_capi">How many bank statements do you require?</span></h2>
+                        <div class="clearfix"></div>
+                            <div class="order2_step">
+                              <ul class="order_details_list2">
+                                  <li>Each statement has 1 - 2 page of transactions.</li>
+                                  <li>Each statement can cover between 1 - 3 months.</li>
+                              </ul>
+                          </div>
+                        <div class="clearfix clear40px visible-lg visible-md visible-sm"></div>
+                        <div class="row">
+                          <div class="col-lg-7 col-md-8 col-sm-12 offset-md-2">
+                            <div class="statement_list summarysheet_order">
+                                  <ul>
+                                    <li class="summery-sheet">
+                                      <input type="radio" id="Summary" name="selector" value="Summary Sheet">
+                                      <label for="Summary" price="25" style="text-align:left;">Summary Sheet <br><span style="font-size:13px;">(No Transactions)</span></label>
+                                      <div class="check"></div>
+                                      <span class="sheet_right">£25</span>
+                                      </li>
+                                    <li>
+                                      <input type="radio" id="1-Statement" name="selector" value="1 Statement">
+                                      <label for="1-Statement" price="35">1 Statement </label>
+                                      <div class="check"></div>
+                                      <span class="sheet_right">£35</span>
+                                      </li>
+                                    <li>
+                                      <input type="radio" id="2-Statement" name="selector" value="2 Statements">
+                                      <label for="2-Statement" price="70">2 Statements </label>
+                                      <div class="check"></div>
+                                      <span class="sheet_right">£70</span>
+                                      </li>
+                                    <li>
+                                      <input type="radio" id="3-Statement" name="selector" value="3 Statements">
+                                      <label for="3-Statement" price="105">3 Statements </label>
+                                      <div class="check"></div>
+                                      <span class="sheet_right">£105</span>
+                                      </li>
+                                    <li>
+                                      <input type="radio" id="4-Statement" name="selector" value="4 Statements">
+                                      <label for="4-Statement" price="130">4 Statements </label>
+                                      <div class="check"></div>
+                                      <span class="sheet_right">£130</span>
+                                      </li>
+                                    <li>
+                                      <input type="radio" id="5-Statement" name="selector" value="5 Statements">
+                                      <label for="5-Statement" price="150">5 Statements </label>
+                                      <div class="check"></div>
+                                      <span class="sheet_right">£150</span>
+                                      </li>
+                                    <li>
+                                      <input type="radio" id="6-Statement" name="selector" value="6 Statements">
+                                      <label for="6-Statement" price="165">6 Statements </label>
+                                      <div class="check"></div>
+                                      <span class="sheet_right">£165</span>
+                                      </li>
+                                    <li>
+                                      <input type="radio" id="12-Statement" name="selector" value="12 Statements">
+                                      <label for="12-Statement" price="300">12 Statements </label>
+                                      <div class="check"></div>
+                                      <span class="sheet_right">£300</span>
+                                      </li>
+                                    <li>
+                                      <input type="radio" id="Other" name="selector" value="Other">
+                                      <label for="Other" price="0">Other</label>
+                                      <div class="check"></div>
+                                      <span class="sheet_right">Contact Us</span> </li>
+                                  </ul>
+                                </div>
+                            <div class="text-left"> <a href="#" class="btn btn-black text-uppercase btn-lg">Back to category</a> <a href="#" id="bankStatement" class="btn btn-danger text-uppercase btn-lg">Next Step</a> <a href="#" id="bankStatementContact" class="btn btn-danger text-uppercase btn-lg" style="display: none;">Next Step</a> </div>
+                          </div>
+                          <div class="col-sm-4">&nbsp;</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="statement_step3_arrow"></div>
+                </div>
+              </div>
+            </div>
+      
+            <!-------------------------------------1st Step (part2)--------------------------------->
+            <div id="firstStep_part2" style="display: none;">
+              <div class="first_box_wrapper">
+                <div class="container">
+                  <div class="first_box_arch_top"></div>
+                  <div class="big_box_arch_bottom_blue"></div>
+                  <div class="big_box_arch_bottom"></div>
+                  <div class="white_box_wrapper">
+                    <div class="style_box padding_bottom">
+                      <div class="step_text">
+                        <div class="step_heading">STEP 2 (of 4)</div>
+                        <ul class="step_blt">
+                          <li class="active">-</li>
+                          <li class="active">-</li>
+                          <li>-</li>
+                          <li>-</li>
+                        </ul>
+                        <h2 class="firstStep_tittle"><span class="black_inner_capi">What type of bank do you require?</span></h2>
+                        <div class="clearfix m-5"></div>
+                        <div class="row">
+                             <div class="col-lg-7 col-md-8 col-sm-12 offset-md-2">
+                            <div class="row">
+                              <div class="col-xl-10 col-lg-12 col-md-12 col-sm-12">
+                                <div class="statement_list statement_list_pro">
+                                  <ul>
+                                    <li>
+                                      <input type="radio" id="UK_Personal_Accounts" name="require_copy" value="UK Personal Accounts">
+                                      <label for="UK_Personal_Accounts" price="UK Personal Accounts">UK Personal Accounts <div class="product-no">(<span id="UK_Personal_Accounts_no">26</span> Products)</div></label>
+                                      <div class="check check_part2"></div>
+                                    </li>
+                                    <li>
+                                      <input type="radio" id="UK_Business_Accounts" name="require_copy" value="UK Business Accounts">
+                                      <label for="UK_Business_Accounts" price="UK Business Accounts">UK Business Accounts <div class="product-no">(<span id="UK_Business_Accounts_no">8</span> Products)</div></label>
+                                      <div class="check check_part2"></div>
+                                       </li>
+      
+                                      <li>
+                                      <input type="radio" id="Ireland_Personal_Accounts" name="require_copy" value="Ireland Personal Accounts">
+                                      <label for="Ireland_Personal_Accounts" price="Ireland Personal Accounts">Ireland Personal Accounts <div class="product-no">(<span id="Ireland_Personal_Accounts_no">5</span> Products)</div></label>
+                                      <div class="check check_part2"></div>
+                                    </li>
+                                    <li>
+                                      <input type="radio" id="Ireland_Business_Accounts" name="require_copy" value="Ireland Business Accounts">
+                                      <label for="Ireland_Business_Accounts" price="Ireland Business Accounts">Ireland Business Accounts <div class="product-no">(<span id="Ireland_Business_Accounts_no">1</span> Products)</div></label>
+                                      <div class="check check_part2"></div>
+                                       </li>
+      
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="text-left">
+                                    <a href="javascript:;" class="btn btn-black text-uppercase btn-lg goBack_Payslips">Go Back</a>
+                                  <a href="javascript:;" class="btn btn-danger text-uppercase btn-lg Payslips_part2">Next Step</a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">&nbsp;</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="statement_step3_arrow"></div>
+                </div>
+              </div>
+            </div>
+      
+            <!-------------------------------------2nd Step----------------------------------------->
+            <div id="secondStep" style="display: none;">
+              <div class="first_box_wrapper">
+                <div class="container">
+                  <div class="first_box_arch_top"></div>
+                  <div class="big_box_arch_bottom_blue"></div>
+                  <div class="big_box_arch_bottom"></div>
+                  <div class="white_box_wrapper">
+                    <div class="style_box">
+                      <div class="step_text">
+                        <div class="step_heading">STEP 3 (of 4)</div>
+                        <ul class="step_blt">
+                          <li class="active">-</li>
+                          <li class="active">-</li>
+                          <li class="active">-</li>
+                          <li>-</li>
+                        </ul>
+                        <h2 class="firstStep_tittle"><span class="black_inner_capi">Which bank do you require?</span></h2>
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="tab-content">
+                                <ul class="state_list_tab bank_list">
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                            <a href="screen/uk_bank_personal/bank of ireland uk.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/bank of ireland uk.jpg" alt="Bank of Ireland Bank Statement" title="Bank of Ireland Bank Statement" border="0" class=""></a>
+                                        <h4>Bank of Ireland</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                            <a href="screen/uk_bank_personal/bank of scoltand.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/bank of scoltand.jpg" alt="Bank of Scotland Bank Statement" title="Bank of Scotland Bank Statement" border="0" class=""></a>
+                                        <h4>Bank of Scotland</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#popup1"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/barclays.jpg" alt="Barclays Bank Statement" title="Barclays Bank Statement" border="0" class=""></a>
+                                        <h4>Barclays</h4>
+                                        <div class="select_option_box">
+                                            <p align="left" class="red_text">Please select account type.</p>
+                                            <div class="check_options">
+                                                  <a href="screen/uk_bank_personal/barclays.jpg" data-lightbox="lightbox" style="display:none;">
+                                                    <img src="screen/uk_bank_personal/barclays.jpg" alt="Personal" title="Personal" border="0" style="display:none;" class="">
+                                                </a>
+                                                <input type="radio" value="Personal" id="Personal_1" name="type">
+                                                <label for="Personal_1">Personal</label>
+                                                <div class="check"></div>
+                                            </div>
+                                            <div class="check_options">
+                                                <a href="screen/uk_bank_personal/barclays savings.jpg" data-lightbox="lightbox" style="display:none;">
+                                                    <img src="screen/uk_bank_personal/barclays savings.jpg" alt="Current" rel="BarclaysUkp" title="Current" border="0" class="">
+                                                </a>
+                                                <input type="radio" value="Savings" id="Savings_1" name="type">
+                                                <label for="Savings_1">Savings</label>
+                                                <div class="check"></div>
+                                            </div>
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/cashplus.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/cashplus.jpg" alt="Cashplus Bank Statement" title="Cashplus Bank Statement" border="0" class=""></a>
+                                        <h4>Cashplus</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/co-op.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/co-op.jpg" alt="Co-operative Bank Statement" title="Co-operative Bank Statement" border="0" class=""></a>
+                                        <h4>Co-operative</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <!-- remain start -->
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/no-img-thumb.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/no-img-thumb.jpg" alt="Counting Up Bank Statement" title="Counting Up Bank Statement" border="0" class=""></a>
+                                        <h4>Counting Up</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/no-img-thumb.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/no-img-thumb.jpg" alt="Danske Bank Statement" title="Danske Bank Statement" border="0" class=""></a>
+                                        <h4>Danske</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+                                    <!-- remain end -->
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/first direct.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/first direct.jpg" alt="First Direct Bank Statement" title="First Direct Bank Statement" border="0" class=""></a>
+                                        <h4>First Direct</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/no-img-thumb.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/no-img-thumb.jpg" alt="First Trust Bank Statement" title="First Trust Bank Statement" border="0" class=""></a>
+                                        <h4>First Trust</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#popup2"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/halifax.jpg" alt="Halifax Bank Statement" title="Halifax Bank Statement" border="0" class=""></a>
+                                        <h4>Halifax</h4>
+                                        <div class="select_option_box">
+                                            <p align="left" class="red_text">Please select account type.</p>
+                                            <div class="check_options">
+                                                  <a href="screen/uk_bank_personal/halifax.jpg" data-lightbox="lightbox" style="display:none;">
+                                                    <img src="screen/uk_bank_personal/halifax.jpg" alt="Personal" title="Personal" border="0" style="display:none;" class="">
+                                                </a>
+                                                <input type="radio" value="Personal" id="Personal_2" name="type">
+                                                <label for="Personal_2">Personal</label>
+                                                <div class="check"></div>
+                                            </div>
+                                            <div class="check_options">
+                                                <a href="screen/uk_bank_personal/halifax savings.jpg" data-lightbox="lightbox" style="display:none;">
+                                                    <img src="screen/uk_bank_personal/halifax savings.jpg" alt="Current" rel="HalifaxUkp" title="Current" border="0" class="">
+                                                </a>
+                                                <input type="radio" value="Savings" id="Savings_2" name="type">
+                                                <label for="Savings_2">Savings</label>
+                                                <div class="check"></div>
+                                            </div>
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#popup3"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/hsbc.jpg" alt="HSBC Bank Statement" title="HSBC Bank Statement" border="0" class=""></a>
+                                        <h4>HSBC</h4>
+                                        <div class="select_option_box">
+                                            <p align="left" class="red_text">Please select account type.</p>
+                                            <div class="check_options">
+                                                  <a href="screen/uk_bank_personal/hsbc.jpg" data-lightbox="lightbox" style="display:none;">
+                                                    <img src="screen/uk_bank_personal/hsbc.jpg" alt="Personal" title="Personal" border="0" style="display:none;" class="">
+                                                </a>
+                                                <input type="radio" value="Personal" id="Personal_3" name="type">
+                                                <label for="Personal_3">Personal</label>
+                                                <div class="check"></div>
+                                            </div>
+                                            <div class="check_options">
+                                                <a href="screen/uk_bank_personal/hsbc savings.jpg" data-lightbox="lightbox" style="display:none;">
+                                                    <img src="screen/uk_bank_personal/hsbc savings.jpg" alt="Current" rel="HSBCUkp" title="Current" border="0" class="">
+                                                </a>
+                                                <input type="radio" value="Savings" id="Savings_3" name="type">
+                                                <label for="Savings_3">Savings</label>
+                                                <div class="check"></div>
+                                            </div>
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/lloyds.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/lloyds.jpg" alt="Lloyds Bank Statement" title="Lloyds Bank Statement" border="0" class=""></a>
+                                        <h4>Lloyds</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/metro.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/metro.jpg" alt="Metro Bank Statement" title="Metro Bank Statement" border="0" class=""></a>
+                                        <h4>Metro</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <!-- remain start -->
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/no-img-thumb.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/no-img-thumb.jpg" alt="Monese Bank Statement" title="Monese Bank Statement" border="0" class=""></a>
+                                        <h4>Monese</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/no-img-thumb.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/no-img-thumb.jpg" alt="Monzo Bank Statement" title="Monzo Bank Statement" border="0" class=""></a>
+                                        <h4>Monzo</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+                                     <!-- remain End -->
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/nationwide.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/nationwide.jpg" alt="Nationwide Bank Statement" title="Nationwide Bank Statement" border="0" class=""></a>
+                                        <h4>Nationwide</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#popup4"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/natwest.jpg" alt="Natwest Bank Statement" title="HSBC Bank Statement" border="0" class=""></a>
+                                        <h4>Natwest</h4>
+                                        <div class="select_option_box">
+                                            <p align="left" class="red_text">Please select account type.</p>
+                                            <div class="check_options">
+                                                  <a href="screen/uk_bank_personal/natwest.jpg" data-lightbox="lightbox" style="display:none;">
+                                                    <img src="screen/uk_bank_personal/natwest.jpg" alt="Personal" title="Personal" border="0" style="display:none;" class="">
+                                                </a>
+                                                <input type="radio" value="Personal" id="Personal_4" name="type">
+                                                <label for="Personal_3">Personal</label>
+                                                <div class="check"></div>
+                                            </div>
+                                            <div class="check_options">
+                                                <a href="screen/uk_bank_personal/natwest savings.jpg" data-lightbox="lightbox" style="display:none;">
+                                                    <img src="screen/uk_bank_personal/natwest savings.jpg" alt="Current" rel="NatwestUkp" title="Current" border="0" class="">
+                                                </a>
+                                                <input type="radio" value="Savings" id="Savings_4" name="type">
+                                                <label for="Savings_3">Savings</label>
+                                                <div class="check"></div>
+                                            </div>
+                                            <div class="check_options">
+                                                <a href="screen/uk_bank_personal/natwest online.jpg" data-lightbox="lightbox" style="display:none;">
+                                                    <img src="screen/uk_bank_personal/natwest online.jpg" alt="Online" rel="NatwestUkp" title="Online" border="0" class="">
+                                                </a>
+                                                <input type="radio" value="Online" id="Online_4" name="type">
+                                                <label for="Online_4">Online</label>
+                                                <div class="check"></div>
+                                            </div>
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/rbs.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/rbs.jpg" alt="RBS Bank Statement" title="RBS Bank Statement" border="0" class=""></a>
+                                        <h4>RBS</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/santander.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/santander.jpg" alt="Santander Bank Statement" title="Santander Bank Statement" border="0" class=""></a>
+                                        <h4>Santander</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <!-- remain start -->
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/no-img-thumb.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/no-img-thumb.jpg" alt="Starling Bank Statement" title="Starling Bank Statement" border="0" class=""></a>
+                                        <h4>Starling</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+                                    <!-- remain end -->
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/tesco.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/tesco.jpg" alt="Tesco Bank Statement" title="Tesco Bank Statement" border="0" class=""></a>
+                                        <h4>Tesco</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/think money.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/think money.jpg" alt="Think Money Bank Statement" title="Think Money Bank Statement" border="0" class=""></a>
+                                        <h4>Think Money</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/tide.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/tide.jpg" alt="Tide Bank Statement" title="Tide Bank Statement" border="0" class=""></a>
+                                        <h4>Tide</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/tsb.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/tsb.jpg" alt="TSB Bank Statement" title="TSB Bank Statement" border="0" class=""></a>
+                                        <h4>TSB</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/unity trust.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/unity trust.jpg" alt="Unity Trust Bank Statement" title="Unity Trust Bank Statement" border="0" class=""></a>
+                                        <h4>Unity Trust</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_personal/yorkshire.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_personal/yorkshire.jpg" alt="Yorkshire Bank Statement" title="Yorkshire Bank Statement" border="0" class=""></a>
+                                        <h4>Yorkshire</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+      
+      
+      
+                                    <li class="UK_Business_Accounts">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_business/bank of scotland business.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_business/bank of scotland business.jpg" alt="Bank of Scotland Bank Statement" title="Bank of Scotland Bank Statement" border="0" class=""></a>
+                                        <h4>Bank of Scotland</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Business_Accounts">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_business/hsbc business.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_business/hsbc business.jpg" alt="HSBC Bank Statement" title="HSBC Bank Statement" border="0" class=""></a>
+                                        <h4>HSBC</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Business_Accounts">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_business/lloyds business.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_business/lloyds business.jpg" alt="Lloyds Bank Statement" title="Lloyds Bank Statement" border="0" class=""></a>
+                                        <h4>Lloyds</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Business_Accounts">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_business/metro business.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_business/metro business.jpg" alt="Metro Bank Statement" title="Metro Bank Statement" border="0" class=""></a>
+                                        <h4>Metro</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Business_Accounts">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_business/smartlander business.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_business/smartlander business.jpg" alt="Santander Bank Statement" title="Santander Bank Statement" border="0" class=""></a>
+                                        <h4>Santander</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Business_Accounts">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_business/tsb business.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_business/tsb business.jpg" alt="TSB Bank Statement" title="TSB Bank Statement" border="0" class=""></a>
+                                        <h4>TSB</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Business_Accounts active">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/no-img-thumb.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/no-img-thumb.jpg" alt="Tide Bank Statement" title="Tide Bank Statement" border="0" class=""></a>
+                                        <h4>Tide</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="UK_Business_Accounts">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/uk_bank_business/yorkshire business.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/uk_bank_business/yorkshire business.jpg" alt="Yorkshire Bank Statement" title="Yorkshire Bank Statement" border="0" class=""></a>
+                                        <h4>Yorkshire</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="Ireland_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#popup5"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/ireland_bank_personal/aib.jpg" alt="AIB Ireland Bank Statement" title="AIB Ireland Bank Statement" border="0" class=""></a>
+                                        <h4>AIB Ireland</h4>
+                                        <div class="select_option_box">
+                                            <p align="left" class="red_text">Please select account type.</p>
+                                            <div class="check_options">
+                                                  <a href="screen/ireland_bank_personal/aib.jpg" data-lightbox="lightbox" style="display:none;">
+                                                    <img src="screen/ireland_bank_personal/aib.jpg" alt="Personal" title="Personal" border="0" style="display:none;" class="">
+                                                </a>
+                                                <input type="radio" value="Personal" id="Personal_5" name="type">
+                                                <label for="Personal_5">Personal</label>
+                                                <div class="check"></div>
+                                            </div>
+                                            <div class="check_options">
+                                                <a href="screen/ireland_bank_personal/aib saving.jpg" data-lightbox="lightbox" style="display:none;">
+                                                    <img src="screen/ireland_bank_personal/aib saving.jpg" alt="Current" rel="AIBIrelandIp" title="Current" border="0" class="">
+                                                </a>
+                                                <input type="radio" value="Savings" id="Savings_5" name="type">
+                                                <label for="Savings_5">Savings</label>
+                                                <div class="check"></div>
+                                            </div>
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="Ireland_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/ireland_bank_personal/bank of ireland.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/ireland_bank_personal/bank of ireland.jpg" alt="Bank of Ireland Bank Statement" title="Bank of Ireland Bank Statement" border="0" class=""></a>
+                                        <h4>Bank of Ireland</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="Ireland_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/ireland_bank_personal/ebs.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/ireland_bank_personal/ebs.jpg" alt="EBS Bank Statement" title="EBS Bank Statement" border="0" class=""></a>
+                                        <h4>EBS</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="Ireland_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/ireland_bank_personal/kbc.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/ireland_bank_personal/kbc.jpg" alt="KBC Bank Statement" title="KBC Bank Statement" border="0" class=""></a>
+                                        <h4>KBC</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="Ireland_Personal_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/ireland_bank_personal/perm tsb.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/ireland_bank_personal/perm tsb.jpg" alt="Permanent tsb Bank Statement" title="Permanent tsb Bank Statement" border="0" class=""></a>
+                                        <h4>Permanent tsb</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+                                    <li class="Ireland_Business_Accounts" style="display: none;">
+                                        <div class="zoom_thumb">
+                                              <a href="screen/ireland_bank_business/ireland bank business.jpg" data-lightbox="lightbox"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <a href="javascript:;"><img src="screen/ireland_bank_business/ireland bank business.jpg" alt="Bank of Ireland Bank Statement" title="Bank of Ireland Bank Statement" border="0" class=""></a>
+                                        <h4>Bank of Ireland</h4>
+                                        <div class="select_option_box">
+                                            <div class="clear10px"></div>
+                                            <a href="javascript:;" class="goback_button goBack2">Go Back</a><a href="javascript:;" class="next_button bankStatement2">Next Step</a>
+                                        </div>
+                                    </li>
+      
+      
+      
+                                  </ul>
+                                <div class="clear10px"></div>
+                              </div>
+                            </div>
+      
+                            <div class="clear20px"></div>
+                            <div class="btncenter">
+                                <a href="javascript:;" class="btn btn-black text-uppercase btn-lg goBack2">Go Back</a> <a href="javascript:;" class="btn btn-danger text-uppercase btn-lg bankStatement2">Next Step</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!--<div class="statement_step7_arrow"></div>-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-------------------------------------3rd Step----------------------------------------->
+            <div id="thirdStep" style="">
+              <div class="first_box_wrapper">
+                <div class="container">
+                  <div class="first_box_arch_top"></div>
+                  <div class="first_box_arch_bottom"></div>
+                  <div class="white_box_wrapper">
+                    <div class="step_text">
+                      <div class="step_heading">STEP 4 (of 4)</div>
+                      <ul class="step_blt">
+                        <li class="active">-</li>
+                        <li class="active">-</li>
+                        <li class="active">-</li>
+                        <li class="active">-</li>
+                      </ul>
+                      <h2 class="firstStep_tittle"><span class="black_inner_capi">Fill out the details needed</span></h2>
+                      <div class="step3_top_icon"><i class="fa fa-question-circle"></i></div>
+                      <p>If you are unsure what information to type, please click the question mark icon next to the field</p>
+                      <div class="clearfix m-5"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="big_box_wrapper">
+                <div class="container">
+                  <div class="big_box_arch_top"></div>
+                  <div class="big_box_arch_bottom_blue"></div>
+                  <div class="big_box_arch_bottom"></div>
+                  <div class="white_box_wrapper minus_padding_top">
+                    <div class="style_box">
+                      <div class="row">
+                        <div class="col-xl-7 col-lg-10 col-md-10 col-sm-12 offset-md-1">
+                          <div class="main_hedding sky_blue_bg">
+                            <h2>Personal Information</h2>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                              <div class="statement_form">
+                                <label for="text">E-mail</label>
+                                <input name="email" id="email" class="form-control" type="text">
+                                <div class="row">
+                                  <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <label for="select">Title</label>
+                                    <select name="title" id="title" class="form-control">
+                                      <option value="Mr">Mr</option>
+                                      <option value="Ms">Ms</option>
+                                      <option value="Mrs">Mrs</option>
+                                      <option value="Miss">Miss</option>
+                                      <option value="Dr">Dr</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <label for="text">Name as it appears on Bank Statement</label>
+                                <input size="32" name="name" id="name" class="form-control" type="text">
+                                <label for="textarea">Address as it appears on bank statement</label>
+                                <textarea name="address" id="address" class="form-control" rows="4"></textarea>
+                                <label for="textarea">Delivery Address</label>
+                                <div class="statement_list2">
+                                  <input name="sameAdd" checked="" id="sameAdd" value="yes" onclick="FillAddress(this.form)" type="checkbox">
+                                  <label for="sameAdd" style="color:#000;">Same As Above</label>
+                                  <div class="check"></div>
+                                </div>
+                                <div class="otherAdress" style="display:none; clear:both;">
+                                  <textarea name="del_address" id="del_address" class="form-control" rows="5"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="statement_step3_arrow"></div>
+                </div>
+              </div>
+              <div class="big_box_wrapper">
+                <div class="container">
+                  <div class="big_box_arch_top"></div>
+                  <div class="big_box_arch_bottom_blue"></div>
+                  <div class="big_box_arch_bottom"></div>
+                  <div class="white_box_wrapper minus_padding_top">
+                    <div class="style_box">
+                      <div class="main_hedding sky_blue_bg">
+                        <h2>Bank Information</h2>
+                      </div>
+                      <div class="row">
+                        <div class="col-xl-7 col-lg-10 col-md-10 col-sm-12 offset-md-1">
+                          <div class="statement_form">
+                            <div class="row">
+                              <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                                <label for="textarea">Branch Address
+                                <a class="qustion" href="javascript:void(0);" data-container="body" data-toggle="popover" data-placement="top" data-content="If your statements do not show an address, you can leave this blank." data-original-title="" title=""><i class="fa fa-question-circle"></i></a></label>
+                                <textarea name="BAddress" id="BAddress" class="form-control" cols="26" rows="5"></textarea>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text">Bank Account Number</label>
+                                <input size="32" name="AccountNumber" id="AccountNumber" class="form-control" type="text">
+                              </div>
+                            </div>
+                            <label for="text">Bank Account Sort Code</label>
+                            <div class="row">
+                              <div class="col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                                <input type="text" class="form-control form-control-sm" name="AccountSortCode" id="AccountSortCode">
+                              </div>
+                              <div class="col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                                <input type="text" class="form-control form-control-sm" name="AccountSortCode2" id="AccountSortCode2">
+                              </div>
+                              <div class="col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                                <input type="text" class="form-control form-control-sm" name="AccountSortCode3" id="AccountSortCode3">
+                              </div>
+                            </div>
+                            <label for="text">IBAN <a href="javascript:void(0);" class="qustion" data-container="body" data-toggle="popover" data-placement="top" data-content="This number starts with GB and can be found on your online or paper statements. It is 22 characters long." data-original-title="" title=""><i class="fa fa-question-circle"></i></a></label>
+      
+                            <div class="iban_onefield">
+                                <div class="row">
+                                  <div class="col-xs-12">
+                                    <input name="IBAN_mobile" id="IBAN_mobile" class="form-control" size="22" maxlength="22" type="text">
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="iban_allfields">
+                                <div class="row">
+                                  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                    <input size="4" maxlength="4" name="IBAN" id="IBAN" class="form-control" type="text">
+                                  </div>
+                                  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                    <input size="4" maxlength="4" name="IBAN2" id="IBAN2" class="form-control" type="text">
+                                  </div>
+                                  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                    <input size="4" maxlength="4" name="IBAN3" id="IBAN3" class="form-control" type="text">
+                                  </div>
+                                  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                    <input size="4" maxlength="4" name="IBAN4" id="IBAN4" class="form-control" type="text">
+                                  </div>
+                                  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                    <input size="4" maxlength="4" name="IBAN5" id="IBAN5" class="form-control" type="text">
+                                  </div>
+                                  <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                                    <input size="2" maxlength="2" name="IBAN6" id="IBAN6" class="form-control" type="text">
+                                  </div>
+                                </div>
+                            </div>
+      
+                            <label for="text">BIC/SWIFT <a class="qustion" href="javascript:void(0);" data-container="body" data-toggle="popover" data-placement="top" data-content="This number is usually next to your IBAN. It is around 8 characters long and usually starts with the name of your bank" data-original-title="" title=""><i class="fa fa-question-circle"></i></a></label>
+                            <div class="row">
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <input id="BIC_SWIFT" class="form-control" size="32" name="BIC_SWIFT" type="text">
+                              </div>
+                            </div>
+                            <label for="text">Starting Statement Number/Page Number <a class="qustion" href="javascript:void(0);" data-container="body" data-toggle="popover" data-placement="top" data-content="Depending on your bank this could be a page number or the number at the top of your statement. A higher number means you have had a higher amount of previous statements." data-original-title="" title=""><i class="fa fa-question-circle"></i></a></label>
+                            <div class="row">
+                              <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                                <input id="StatementNumber" class="form-control" size="32" name="StatementNumber" type="text">
+                              </div>
+                            </div>
+                            <div class="row" id="first" style="">
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text">Statement 1 Starting Date</label>
+                                <div class="calendar_icon_input">
+                                  <input size="32" name="Month1Start" class="showcal form-control"type="text" id="">
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text">Statement 1 Closing Date</label>
+                                <div class="calendar_icon_input">
+                                  <input size="32" name="Month1Close" class="showcalend form-control" type="text">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row" id="second" style="">
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text">Statement 2 Starting Date</label>
+                                <div class="calendar_icon_input">
+                                  <input size="32" name="Month2Start" class="showcal2 form-control" type="text">
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text">Statement 2 Closing Date</label>
+                                <div class="calendar_icon_input">
+                                  <input size="32" name="Month2Close" class="showcalend2 form-control" type="text">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row" id="third"">
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text">Statement 3 Starting Date</label>
+                                <div class="calendar_icon_input">
+                                  <input size="32" name="Month3Start" class="showcal3 form-control"type="text">
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text">Statement 3 Closing Date</label>
+                                <div class="calendar_icon_input">
+                                  <input size="32" name="Month3Close" class="showcalend3 form-control" type="text">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row" id="fourth">
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text">Statement 4 Starting Date</label>
+                                <div class="calendar_icon_input">
+                                  <input size="32" name="Month4Start" class="showcal4 form-control"type="text">
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text">Statement 4 Closing Date</label>
+                                <div class="calendar_icon_input">
+                                  <input size="32" name="Month4Close" class="showcalend4 form-control" type="text">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row" id="fifth">
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text">Statement 5 Starting Date</label>
+                                <div class="calendar_icon_input">
+                                  <input size="32" name="Month5Start" class="showcal5 form-control"type="text">
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text">Statement 5 Closing Date</label>
+                                <div class="calendar_icon_input">
+                                  <input size="32" name="Month5Close" class="showcalend5 form-control" type="text">
+                                </div>
+                              </div>
+                            </div>
+                            
+      
+
+                            <div class="row">
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text"> Overdraft Limit <a class="qustion" href="#"><i class="fa fa-question-circle"></i></a></label>
+                                <input id="Overdraft" class="form-control" size="32" name="Overdraft" type="text">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text"> Starting Balance <a class="qustion" href="#" data-container="body"><i class="fa fa-question-circle"></i></a></label>
+                                <input id="StartingBalance" class="form-control" size="32" name="StartingBalance" type="text">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <label for="text"> End Balance <a class="qustion" href="#" ><i class="fa fa-question-circle"></i></a></label>
+                                <input id="EndBalance" class="form-control" size="32" name="EndBalance" type="text">
+                              </div>
+                            </div>
+                            <div id="Summary_Sheet_option">
+                                <p>Would you like us to add random transactions? <a class="qustion" href="#"><i class="fa fa-question-circle"></i></a></p>
+                                <div class="statement_bullet">
+                                  <div class="row">
+                                    <div class="col-sm-5 col-xs-6 col-6" style="position:relative;">
+                                      <input id="RandomTransactions" name="RandomTransactions" value="yes" type="radio">
+                                      <label for="RandomTransactions">Yes</label>
+                                      <div class="check"></div>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-6 col-6" style="position:relative;">
+                                      <input id="RandomTransactions2" name="RandomTransactions" value="no" type="radio">
+                                      <label for="RandomTransactions2">No</label>
+                                      <div class="check"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <p>Would you like to add your own transactions? <a class="qustion" href="#" ><i class="fa fa-question-circle"></i></a></p>
+                                <div class="statement_bullet">
+                                  <div class="row">
+                                    <div class="col-sm-5 col-xs-6 col-6" style="position:relative;">
+                                      <input id="OwnTransactions" name="OwnTransactions" value="yes" type="radio">
+                                      <label for="OwnTransactions">Yes</label>
+                                      <div class="check"></div>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-6 col-6" style="position:relative;">
+                                      <input id="OwnTransactions2" name="OwnTransactions" value="no" type="radio">
+                                      <label for="OwnTransactions2">No</label>
+                                      <div class="check"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="big_box_wrapper">
+                <div class="container">
+                  <div class="big_box_arch_top"></div>
+                  <div class="big_box_arch_bottom_blue"></div>
+                  <div class="big_box_arch_bottom"></div>
+                  <div class="white_box_wrapper minus_padding_top">
+                    <div class="style_box">
+                      <div class="main_hedding sky_blue_bg">
+                        <h2>Other</h2>
+                      </div>
+                      <div class="row">
+                        <div class="col-xl-9 col-lg-10 col-md-10 col-sm-12 offset-md-1">
+                          <div class="statement_form">
+                            <label for="textarea">Add Attachment <a class="qustion" href="#" ><i class="fa fa-question-circle"></i></a></label>
+                            <div class="row">
+                              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="allattachments">
+                                <div class="box box22">
+                                  <input type="file" name="attachment" id="attachment" class="firstAttachment inputfile inputfile-6">
+                                  <label for="attachment"><span></span> <strong>Choose file…</strong></label>
+                                 <a href="#" class="plus_generator add_attachment"><i class="fa fa-plus"></i></a> </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                                <div class="clear10px"></div>
+                                <label for="text">Would you like to receive emails with future discounts from us? <a class="qustion" href="#" ><i class="fa fa-question-circle"></i></a></label>
+                                <input id="hearus" class="form-control" name="hearus" type="text">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                                <label for="textarea">Extra information <a class="qustion" href="#" > <i class="fa fa-question-circle"></i> </a> </label>
+                                <textarea id="extrainfo" class="form-control" cols="26" rows="5" name="extrainfo"></textarea>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                                <p>Terms and conditions</p>
+                                <div class="alert_form"><p>Providing incorrect or inaccurate information for the purpose of misleading others is committing fraud. You must be the original owner of the original documents to place an order. We are not affiliated or connected with any of the official companies. You should contact your original provider for the official documents.</p>
+                                <p><a href="#">See here</a> for the full terms and conditions</p></div>
+                              </div>
+                            </div>
+                            <div class="statement_list2">
+                              <input name="terms_and_conditions" id="terms_and_conditions" value="yes" onclick="FillAddress(this.form)" type="checkbox">
+                              <label for="terms_and_conditions">I understand and accept the Terms and Conditions above</label>
+                              <div class="check"></div>
+                            </div>
+                            
+                            <div class="m-4 clearfix"></div>
+                            <div class="m-4 clearfix"></div>
+                            <div class="row">
+                              <div class="col-sm-3"><a class="btn btn-black text-uppercase btn-lg btn-block" id="goBack3" href="C:\Users\MITHU\Desktop\F\third_step.html">Go Back</a></div>
+                              <div class="col-sm-6"><a class="btn btn-danger text-uppercase btn-lg btn-block" id="bankStatement3" href="#">Submit</a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="statement_step7_arrow"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form></div>
+</body>
+</html>
